@@ -6,7 +6,7 @@
 ```js
   [1] Discord Has Little to No Rate Limits For Video Calls
   [2] Boredome
-  [3] Better Code Than The Old One
+  [3] Better & Faster Than Every Else Region Abuse Like Code
 ```
   
 ## Usage?
