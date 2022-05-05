@@ -1,19 +1,20 @@
-# voice.py
+# vra.py
 # author: b6m
 # date: 2022-05-05
 import asyncio
 import httpx
 from datetime import datetime
-from colorama import Fore, init
+from pystyle import Colors, Colorate
 import random
 
-headers          =    {'Authorization': str(input('[?] Enter Your Token : '))}
-voice_id         =    int(input("[?] Enter A Voice ID : "))
-amount           =    int(input("[?] How Many Times Do You Want To Change The Region : "))
+headers          =    {'Authorization': str(input(Colorate.Horizontal(Colors.blue_to_purple,'[?] Enter Your Token : ')))}
+voice_id         =    int(input(Colorate.Horizontal(Colors.blue_to_purple,"[?] Enter A Voice ID : ")))
+amount           =    int(input(Colorate.Horizontal(Colors.blue_to_purple,"[?] How Many Times Do You Want To Change The Region : ")))
+
+
 
 class VoiceRegionAbuse:
     
-
     def __init__(self):
         self.group            =    f"https://discord.com/api/v9/channels/{voice_id}/call"
         self.voice_regions    =    ['brazil','hongkong','india','japan','rotterdam','russia','singapore','southafrica','sydney','us-central','us-east','us-south','us-west']
@@ -27,16 +28,18 @@ class VoiceRegionAbuse:
                     r = await client.patch(self.group, headers=headers, json={"region": region})
                     if r.status_code in [200, 201, 202, 203, 204, 205, 206, 207, 208, 226]:
                         _time_ = datetime.now().strftime("%H:%M:%S")
-                        print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTGREEN_EX} ~ @ {_time_} {Fore.LIGHTMAGENTA_EX}] {Fore.RESET} Changed To {region}")
+                        print(Colorate.Horizontal(Colors.white_to_blue, f"[ - @ {_time_} ] Sucessfully Changed To {region}", 1))
                     elif r.status_code == 429:
                         _time_ = datetime.now().strftime("%H:%M:%S")
-                        print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTRED_EX} - @ {_time_} {Fore.LIGHTMAGENTA_EX}] {Fore.RESET} Rate Limited")
+                        print(Colorate.Horizontal(Colors.white_to_red, f"[ - @ {_time_} ] Rate Limited", 1))
                     elif r.status_code == 404:
                         _time_ = datetime.now().strftime("%H:%M:%S")
-                        print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTRED_EX} - @ {_time_} {Fore.LIGHTMAGENTA_EX}] {Fore.RESET} Group Call Not Found")
+                        print(Colorate.Horizontal(Colors.white_to_red, f"[ - @ {_time_} ] Voice Call Does Not Exist", 1))
+
+
         except Exception as e:
-            print(f"{e}")
-            print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTRED_EX}-{Fore.LIGHTMAGENTA_EX}]{Fore.RESET} Token Is Invalid")
+            _time_ = datetime.now().strftime("%H:%M:%S")
+            print(Colorate.Horizontal(Colors.white_to_red, f"[ - @ {_time_} ] {e}", 1))
 
 async def __run__():
     tasks = []
@@ -46,5 +49,4 @@ async def __run__():
     
         
 if __name__ == "__main__":
-    init()
     asyncio.run(__run__())
