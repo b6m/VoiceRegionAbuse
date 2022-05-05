@@ -25,7 +25,7 @@ class VoiceRegionAbuse:
                     elif r.status_code == 429:
                         print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTRED_EX} - {Fore.LIGHTMAGENTA_EX}] {Fore.RESET} Rate Limited")
                     elif r.status_code == 404:
-                        print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTRED_EX} - {Fore.LIGHTMAGENTA_EX}] {Fore.RESET} Group Call Not Found")
+                        print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTRED_EX} - {Fore.LIGHTMAGENTA_EX}] {Fore.RESET} Group or Call Not Found")
         except:
             print(f"{Fore.LIGHTMAGENTA_EX}[{Fore.LIGHTRED_EX}-{Fore.LIGHTMAGENTA_EX}]{Fore.RESET} Token Is Invalid")
 
