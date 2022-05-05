@@ -15,7 +15,8 @@
   [?] Enter A Voice Call Id, Either Group Or User
   [?] To Get User Id Your in A Call With Simply Right click > copy id
   [?] To Get a group id, send a message in a group
-  [?] The message should look like this 'https://discord.com/channels/@me/numbers1/numbers2'
+  [?] Copy the message link
+  [?] The message link should look like this 'https://discord.com/channels/@me/numbers1/numbers2'
   [?] The 'numbers1' should be replaced with digits, which is the group id
 ```
 ### Enjoy
