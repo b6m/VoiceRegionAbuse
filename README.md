@@ -8,11 +8,9 @@
   [2] Boredome
   [3] Better & Faster Than Every Else Region Abuse Like Code
 ```
-  
-<p align='center'>
-  <b>##[?] Usage </b><br>
- </p>
 
+##                   [?] Usage
+  
 ```js 
   [I] Get Your Token 
   [II] Enter A Voice Call Id, Either Group Or User 
