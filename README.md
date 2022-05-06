@@ -21,8 +21,8 @@
   [I] Send A Message In The Group
   [II] Copy Message Link
   [III] Message Link Should Look Like This If You Did It Right
-  [IV] 'https://discord.com/channels/@me/GROUP_ID/MESSAGE_ID'
-  [V] Of Course It Won't Say The Same, It Should Be Replaced With Numbers
-  [VI] Copy The GROUP_ID Which Should Be Replaced With Numbers
+  [III] 'https://discord.com/channels/@me/GROUP_ID/MESSAGE_ID'
+  [IIII] Of Course It Won't Say The Same, It Should Be Replaced With Numbers
+  [IIIII] Copy The GROUP_ID Which Should Be Replaced With Numbers
 ```
 ### Enjoy
