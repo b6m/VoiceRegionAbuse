@@ -9,7 +9,9 @@
   [3] Better & Faster Than Every Else Region Abuse Like Code
 ```
   
-## [?] Usage
+<p align='center'>
+  <b>[?] Usage </b><br>
+ </p>
 
 ```js 
   [I] Get Your Token 
