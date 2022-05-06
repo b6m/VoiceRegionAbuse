@@ -2,21 +2,27 @@
   <b>Voice Region Abuse <3 </b><br>
 </p>
   
-## Reason?
+## [?] Reason
 ```js
   [1] Discord Has Little To No Rate Limits For Video Calls
   [2] Boredome
   [3] Better & Faster Than Every Else Region Abuse Like Code
 ```
   
-## Usage?
-```js
-  [?] Get Your Token
-  [?] Enter A Voice Call Id, Either Group Or User
-  [?] To Get User Id Your in A Call With Simply Right click > copy id
-  [?] To Get a group id, send a message in a group
-  [?] Copy the message link
-  [?] The message link should look like this 'https://discord.com/channels/@me/numbers1/numbers2'
-  [?] The 'numbers1' should be replaced with digits, which is the group id
+## [?] Usage
+
+```js 
+  [I] Get Your Token 
+  [II] Enter A Voice Call Id, Either Group Or User 
+  [III] To Get User Id Your In A Call With Simply Right Click > Copy Id 
+```
+> [?] How Can I Get The Group Call ID
+  ```js
+  [I] Send A Message In The Group
+  [II] Copy Message Link
+  [III] Message Link Should Look Like This If You Did It Right
+  [III] 'https://discord.com/channels/@me/GROUP_ID/MESSAGE_ID'
+  [IIII] Of Course It Won't Say The Same, It Should Be Replaced With Numbers
+  [IIIII] Copy The GROUP_ID Which Should Be Replaced With Numbers
 ```
 ### Enjoy
