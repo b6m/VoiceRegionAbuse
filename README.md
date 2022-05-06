@@ -21,7 +21,7 @@ random
 
    ```js 
   [I] Get Your Token 
-  [II] Enter A Voice Call Id, Either Group Or User 
+  [II] Enter A Voice Call, Either Group Or User 
   [III] To Get User Id Your In A Call With Simply Right Click > Copy Id 
 ```
 
