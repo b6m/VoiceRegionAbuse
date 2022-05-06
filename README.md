@@ -9,14 +9,12 @@
   [3] Better & Faster Than Every Else Region Abuse Like Code
 ```
   
-## Usage?
-  ```js
+## Usage? ```js
   [?] Get Your Token
   [?] Enter A Voice Call Id, Either Group Or User
-  [?] To Get User Id Your in A Call With Simply Right click > copy id
-  [?] To Get a group id, send a message in a group
-  [?] Copy the message link
-  [?] The message link should look like this 'https://discord.com/channels/@me/numbers1/numbers2'
-  [?] The 'numbers1' should be replaced with digits, which is the group id
-```
+  [?] To Get User Id Your In A Call With Simply Right Click > Copy Id 
+  [?] To Get A Group Id, Send A Message In A Group 
+  [?] Copy The Message Link 
+  [?] The Message Link Should Look Like This 'https://discord.com/channels/@me/group_id/message_id' 
+  [?] The 'group_id' Should Be Replaced With Digits, Which Is The Group Id ``` 
 ### Enjoy
