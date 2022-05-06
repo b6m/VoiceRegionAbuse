@@ -32,7 +32,7 @@ random
   [II] Copy Message Link
   [III] Message Link Should Look Like This If You Did It Right
   [IIII] 'https://discord.com/channels/@me/GROUP_ID/MESSAGE_ID'
-  [IIIII] Of Course It Won't Say The Same, It Should Be Replaced With Numbers
+  [IIIII] Of Course It Wont Say The Same, It Should Be Replaced With Numbers
   [IIIIII] Copy The GROUP_ID Which Should Be Replaced With Numbers
 ```
 
