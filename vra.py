@@ -36,6 +36,7 @@ class VoiceRegionAbuse:
                         
                     elif r.status_code == 404:
                         logging.error(f"   Voice Channel Not Found")
+            
             except Exception as e:
                 logging.critical(f"   {e}")
 
