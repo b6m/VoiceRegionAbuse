@@ -1,6 +1,6 @@
-<h1 align="center">Voice Region Abuse.. <3</h1> 
-  
-## [?] Reason
+<h1 align="center">Voice Region Abuse.. <3</h1> <br>
+<h1 align = "center">[?] • Reason</h3>
+
 ```js
   [I] Discord Has Little To No Rate Limits For Video Calls
   [II] Boredome
